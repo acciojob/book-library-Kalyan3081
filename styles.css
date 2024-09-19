@@ -1,39 +1,25 @@
-/*  your css code here. If applicable */
-* {
+body {
     background-color: #f8f8f8;
-    align-content: center;
 }
 
 .book-library {
     background-color: #ffffff;
     width: 75%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Box shadow added */
-	/* align-content:center; */
-
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-}
-
-.book-author {
+.book .book-author {
     color: #777777;
-	padding:10px;
+    padding:10px;
 }
 
-.book-price {
+.book .book-price {
     text-align: center;
     background-color: #2ecc71;
-	margin:10px;
-}
-.book-title{
-	padding:10px;
+    margin:10px;
+    color: #ffffff; /* Add this line */
 }
 
-.book{
-	color:rgb(46, 204, 113);
+.book .book-title{
+    padding:10px;
 }
